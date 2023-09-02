@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 
 class Activity3 extends StatelessWidget {
@@ -48,7 +50,7 @@ class Activity3 extends StatelessWidget {
               ],
             ),
           ),
-          Container(
+          SizedBox(
             height: 250,
             child: Stack(
               children: [
@@ -99,13 +101,13 @@ class Activity3 extends StatelessWidget {
                     ),
                   ),
                 ),
-                Positioned(
+                const Positioned(
                   top: 50,
                   left: 150,
-                  child: Container(
+                  child: SizedBox(
                     height: 180,
                     width: 200,
-                    child: const Column(
+                    child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -235,13 +237,13 @@ class Activity3 extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Positioned(
+                        const Positioned(
                           top: 50,
                           left: 150,
-                          child: Container(
+                          child: SizedBox(
                             height: 180,
                             width: 200,
-                            child: const Column(
+                            child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
@@ -305,7 +307,7 @@ class Activity3 extends StatelessWidget {
                 ),
                 Positioned(
                   top: 0,
-                  child: Container(
+                  child: SizedBox(
                     height: 270,
                     child: Stack(
                       children: [
@@ -357,13 +359,13 @@ class Activity3 extends StatelessWidget {
                             ),
                           ),
                         ),
-                        Positioned(
+                        const Positioned(
                           top: 50,
                           left: 150,
-                          child: Container(
+                          child: SizedBox(
                             height: 180,
                             width: 200,
-                            child: const Column(
+                            child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
