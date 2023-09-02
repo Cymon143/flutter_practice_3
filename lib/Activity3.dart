@@ -101,13 +101,13 @@ class Activity3 extends StatelessWidget {
                     ),
                   ),
                 ),
-                const Positioned(
+                Positioned(
                   top: 50,
                   left: 150,
-                  child: SizedBox(
+                  child: Container(
                     height: 180,
                     width: 200,
-                    child: Column(
+                    child: const Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
@@ -307,7 +307,7 @@ class Activity3 extends StatelessWidget {
                 ),
                 Positioned(
                   top: 0,
-                  child: SizedBox(
+                  child: Container(
                     height: 270,
                     child: Stack(
                       children: [
@@ -359,13 +359,13 @@ class Activity3 extends StatelessWidget {
                             ),
                           ),
                         ),
-                        const Positioned(
+                        Positioned(
                           top: 50,
                           left: 150,
-                          child: SizedBox(
+                          child: Container(
                             height: 180,
                             width: 200,
-                            child: Column(
+                            child: const Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
